@@ -17,6 +17,45 @@
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
+.bt{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(134, 114, 155);
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.bt>a{
+    text-decoration: none;
+    color: #fff;
+}
+.bte{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(134, 114, 155);
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.bte>a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn1{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(134, 114, 155);
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn1>a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* ----- BASE ----- */
 *{
@@ -190,6 +229,8 @@ span{
     display: flex;
     gap: 20px;
 }
+
+
 .featured-text-btn>.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
