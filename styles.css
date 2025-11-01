@@ -411,13 +411,14 @@ h3{
     overflow: hidden;
 }
 .project-box>i{
-    font-size: 50px;
+    font-size: 40px;
     color: #00B5E7;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .project-box label{
     font-size: 15px;
     color: #777;
+    margin-left: 1rem;
 }
 .project-box::after, .contact-info::after{
     content: "";
